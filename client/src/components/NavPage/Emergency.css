@@ -1,58 +1,68 @@
-
-
 .table-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .hovered-content {
-    margin-left: 20px; /* Adjust the margin as needed to control the spacing */
-  }
-  P{
-    color: black;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.hovered-content {
+  margin-left: 20px;
+  /* Adjust the margin as needed to control the spacing */
+}
+
+P {
+  color: black;
+}
 
 .main {
   margin-top: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
+  height: 40px;
 }
 
-/* Flexbox styling for the table container */
 .table-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  flex-direction: column;
+  /* Stack items vertically */
+  align-items: center;
+  /* Center items horizontally */
   margin-top: 20px;
 }
 
-
 .states-list {
-  display: flex; /* Use flexbox for alignment */
-  flex-wrap: wrap; /* Allow wrapping to next line if necessary */
-  justify-content: center; 
+  display: flex;
+  /* Use flexbox for alignment */
+  flex-wrap: wrap;
+  /* Allow wrapping to next line if necessary */
+  justify-content: center;
 }
 
-
 .state-box {
-  border: 1px solid #ccc; /* Border around each state box */
-  padding: 10px 20px; /* Padding inside each box */
-  margin: 5px; /* Margin between boxes */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #f9f9f9; /* Light background color */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth background change on hover */
+  border: 1px solid #ccc;
+  /* Border around each state box */
+  padding: 10px 20px;
+  /* Padding inside each box */
+  margin: 5px;
+  /* Margin between boxes */
+  border-radius: 5px;
+  /* Rounded corners */
+  background-color: #f9f9f9;
+  /* Light background color */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth background change on hover */
 }
 
 .state-box:hover {
-  background-color: #e0f2f1; /* Change background on hover */
+  background-color: #e0f2f1;
+  /* Change background on hover */
 }
 
 .hovered-content {
-  margin-left: 20px; 
+  margin-left: 20px;
   padding: 20px;
   font-size: 30px;
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
   border-radius: 5px;
 }
 
@@ -65,8 +75,8 @@ p {
   color: black;
 }
 
-/* Emergency title styling */
-div > strong {
+
+div>strong {
   font-size: 40px;
   color: red;
 }
